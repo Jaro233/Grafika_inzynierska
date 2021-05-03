@@ -81,15 +81,15 @@
              roof.position.y=8;
              scene.add(roof);
    //Podstawa 
-             base = new THREE.Mesh(
-                    new THREE.CylinderGeometry(15,15,0.5,128,0.5),
-                    new THREE.MeshPhongMaterial(
-                    {
-                        color:0x6937A7,
-                        specular: 0x000000,
-                        shininess: 16,
-                        shading: THREE.FlatShading
-                    }));
+            base = new THREE.Mesh(
+                     new THREE.CylinderGeometry(15,15,0.5,9,0.5),
+                     new THREE.MeshPhongMaterial({
+                           color: 0x6937A7,
+                           specular: 0x222222,
+                           shininess: 16,
+                           shading: THREE.FlatShading
+                        })
+            );
 
              base.position.x=0;
              base.position.z=0;
